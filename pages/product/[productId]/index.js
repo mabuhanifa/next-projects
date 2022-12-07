@@ -1,7 +1,15 @@
-import React from 'react'
+import { useRouter } from "next/router";
+import React from "react";
 
-export default function Index() {
+export default function ProductDetails() {
+  const {
+    query: { productId },
+  } = useRouter();
   return (
-    <div>Index</div>
-  )
+    <div>
+      <div>
+        <h2> This is route {productId}</h2>
+      </div>
+    </div>
+  );
 }
