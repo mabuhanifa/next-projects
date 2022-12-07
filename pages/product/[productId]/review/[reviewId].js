@@ -5,7 +5,6 @@ export default function ReviewId() {
   const {
     query: { productId, reviewId },
   } = useRouter();
-  console.log(productId, reviewId);
 
-  return <div>ReviewId</div>;
+  return <div>Review for {reviewId} for product{productId}</div>;
 }
