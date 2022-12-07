@@ -24,3 +24,6 @@ a {
     background: black;
   }
 }
+body {
+  margin: 50px;
+}
