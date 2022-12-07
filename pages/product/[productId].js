@@ -8,7 +8,7 @@ export default function ProductDetails() {
   return (
     <div>
       <div>
-        <h2> This is {productId} route</h2>
+        <h2> This is  route {productId}</h2>
       </div>
     </div>
   );
